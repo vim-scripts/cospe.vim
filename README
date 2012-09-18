@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4220
+
+cospe.vim is a vim plugin for pasting to http://cos.pe
+
+This script is a copy of dpaste.vim but paste into cos.pe instead dpaste.com
+
+Thanks to Alexandre Fiori for creating cos.pe and Bartek Ciszkowski Maintainer of dpaste.vim. 
+
+Usage: 
+- :Cospe  (create a paste from the current buffer or selection) 
+
+You can also map paste to CTRL + P, just add this to your .vimrc: 
+map ^P :Dpaste<CR> 
+(where ^P is entered using CTRL + V, CTRL + P in Vim) 
